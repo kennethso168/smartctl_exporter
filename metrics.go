@@ -63,6 +63,9 @@ var (
 		"Device capacity in blocks",
 		[]string{
 			"device",
+			"model_family",
+			"model_name",
+			"serial_number",
 		},
 		nil,
 	)
@@ -71,6 +74,9 @@ var (
 		"Device capacity in bytes",
 		[]string{
 			"device",
+			"model_family",
+			"model_name",
+			"serial_number",
 		},
 		nil,
 	)
@@ -79,6 +85,9 @@ var (
 		"NVMe device total capacity bytes",
 		[]string{
 			"device",
+			"model_family",
+			"model_name",
+			"serial_number",
 		},
 		nil,
 	)
@@ -87,6 +96,9 @@ var (
 		"Device block size",
 		[]string{
 			"device",
+			"model_family",
+			"model_name",
+			"serial_number",
 			"blocks_type",
 		},
 		nil,
@@ -96,6 +108,9 @@ var (
 		"Device interface speed, bits per second",
 		[]string{
 			"device",
+			"model_family",
+			"model_name",
+			"serial_number",
 			"speed_type",
 		},
 		nil,
@@ -105,6 +120,9 @@ var (
 		"Device attributes",
 		[]string{
 			"device",
+			"model_family",
+			"model_name",
+			"serial_number",
 			"attribute_name",
 			"attribute_flags_short",
 			"attribute_flags_long",
@@ -118,6 +136,9 @@ var (
 		"Device power on seconds",
 		[]string{
 			"device",
+			"model_family",
+			"model_name",
+			"serial_number",
 		},
 		nil,
 	)
@@ -126,6 +147,9 @@ var (
 		"Device rotation rate",
 		[]string{
 			"device",
+			"model_family",
+			"model_name",
+			"serial_number",
 		},
 		nil,
 	)
@@ -134,6 +158,9 @@ var (
 		"Device temperature celsius",
 		[]string{
 			"device",
+			"model_family",
+			"model_name",
+			"serial_number",
 			"temperature_type",
 		},
 		nil,
@@ -143,6 +170,9 @@ var (
 		"Device power cycle count",
 		[]string{
 			"device",
+			"model_family",
+			"model_name",
+			"serial_number",
 		},
 		nil,
 	)
@@ -151,6 +181,9 @@ var (
 		"Device write percentage used",
 		[]string{
 			"device",
+			"model_family",
+			"model_name",
+			"serial_number",
 		},
 		nil,
 	)
@@ -159,6 +192,9 @@ var (
 		"Normalized percentage (0 to 100%) of the remaining spare capacity available",
 		[]string{
 			"device",
+			"model_family",
+			"model_name",
+			"serial_number",
 		},
 		nil,
 	)
@@ -167,6 +203,9 @@ var (
 		"When the Available Spare falls below the threshold indicated in this field, an asynchronous event completion may occur. The value is indicated as a normalized percentage (0 to 100%)",
 		[]string{
 			"device",
+			"model_family",
+			"model_name",
+			"serial_number",
 		},
 		nil,
 	)
@@ -175,6 +214,9 @@ var (
 		"This field indicates critical warnings for the state of the controller",
 		[]string{
 			"device",
+			"model_family",
+			"model_name",
+			"serial_number",
 		},
 		nil,
 	)
@@ -183,6 +225,9 @@ var (
 		"Contains the number of occurrences where the controller detected an unrecovered data integrity error. Errors such as uncorrectable ECC, CRC checksum failure, or LBA tag mismatch are included in this field",
 		[]string{
 			"device",
+			"model_family",
+			"model_name",
+			"serial_number",
 		},
 		nil,
 	)
@@ -191,6 +236,9 @@ var (
 		"Contains the number of Error Information log entries over the life of the controller",
 		[]string{
 			"device",
+			"model_family",
+			"model_name",
+			"serial_number",
 		},
 		nil,
 	)
@@ -199,6 +247,9 @@ var (
 		"",
 		[]string{
 			"device",
+			"model_family",
+			"model_name",
+			"serial_number",
 		},
 		nil,
 	)
@@ -207,6 +258,9 @@ var (
 		"",
 		[]string{
 			"device",
+			"model_family",
+			"model_name",
+			"serial_number",
 		},
 		nil,
 	)
@@ -215,6 +269,9 @@ var (
 		"General smart status",
 		[]string{
 			"device",
+			"model_family",
+			"model_name",
+			"serial_number",
 		},
 		nil,
 	)
@@ -223,6 +280,9 @@ var (
 		"Exit status of smartctl on device",
 		[]string{
 			"device",
+			"model_family",
+			"model_name",
+			"serial_number",
 		},
 		nil,
 	)
@@ -231,6 +291,9 @@ var (
 		"Device state (0=active, 1=standby, 2=sleep, 3=dst, 4=offline, 5=sct)",
 		[]string{
 			"device",
+			"model_family",
+			"model_name",
+			"serial_number",
 		},
 		nil,
 	)
@@ -239,6 +302,9 @@ var (
 		"Device statistics",
 		[]string{
 			"device",
+			"model_family",
+			"model_name",
+			"serial_number",
 			"statistic_table",
 			"statistic_name",
 			"statistic_flags_short",
@@ -251,6 +317,9 @@ var (
 		"Device SMART error log count",
 		[]string{
 			"device",
+			"model_family",
+			"model_name",
+			"serial_number",
 			"error_log_type",
 		},
 		nil,
@@ -260,6 +329,9 @@ var (
 		"Device SMART self test log count",
 		[]string{
 			"device",
+			"model_family",
+			"model_name",
+			"serial_number",
 			"self_test_log_type",
 		},
 		nil,
@@ -269,6 +341,9 @@ var (
 		"Device SMART self test log error count",
 		[]string{
 			"device",
+			"model_family",
+			"model_name",
+			"serial_number",
 			"self_test_log_type",
 		},
 		nil,
@@ -278,6 +353,9 @@ var (
 		"Device SMART Error Recovery Control Seconds",
 		[]string{
 			"device",
+			"model_family",
+			"model_name",
+			"serial_number",
 			"op_type",
 		},
 		nil,
@@ -287,6 +365,9 @@ var (
 		"Device SCSI grown defect list counter",
 		[]string{
 			"device",
+			"model_family",
+			"model_name",
+			"serial_number",
 		},
 		nil,
 	)
@@ -295,6 +376,9 @@ var (
 		"Read Errors Corrected by ReReads/ReWrites",
 		[]string{
 			"device",
+			"model_family",
+			"model_name",
+			"serial_number",
 		},
 		nil,
 	)
@@ -303,6 +387,9 @@ var (
 		"Read Errors Corrected by ECC Fast",
 		[]string{
 			"device",
+			"model_family",
+			"model_name",
+			"serial_number",
 		},
 		nil,
 	)
@@ -311,6 +398,9 @@ var (
 		"Read Errors Corrected by ECC Delayed",
 		[]string{
 			"device",
+			"model_family",
+			"model_name",
+			"serial_number",
 		},
 		nil,
 	)
@@ -319,6 +409,9 @@ var (
 		"Read Total Uncorrected Errors",
 		[]string{
 			"device",
+			"model_family",
+			"model_name",
+			"serial_number",
 		},
 		nil,
 	)
@@ -327,6 +420,9 @@ var (
 		"Write Errors Corrected by ReReads/ReWrites",
 		[]string{
 			"device",
+			"model_family",
+			"model_name",
+			"serial_number",
 		},
 		nil,
 	)
@@ -335,6 +431,9 @@ var (
 		"Write Errors Corrected by ECC Fast",
 		[]string{
 			"device",
+			"model_family",
+			"model_name",
+			"serial_number",
 		},
 		nil,
 	)
@@ -343,6 +442,9 @@ var (
 		"Write Errors Corrected by ECC Delayed",
 		[]string{
 			"device",
+			"model_family",
+			"model_name",
+			"serial_number",
 		},
 		nil,
 	)
@@ -351,6 +453,9 @@ var (
 		"Write Total Uncorrected Errors",
 		[]string{
 			"device",
+			"model_family",
+			"model_name",
+			"serial_number",
 		},
 		nil,
 	)
